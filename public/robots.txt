@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://backslice.com.br/sitemap.xml
