@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { BacksliceMark } from "../assets/BacksliceMark";
 import { navigationItems } from "../constants/navigation";
 import { siteConfig } from "../constants/site";
+import logo from "../assets/logo.png";
 
 export function Footer() {
   return (
@@ -9,7 +10,7 @@ export function Footer() {
       <div className="container grid gap-8 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
           <div className="mb-4 flex items-center gap-3 font-black">
-            <BacksliceMark />
+            <img src={logo} alt="BackSlice" className="h-12 w-12" />
             <span>BackSlice</span>
           </div>
           <p className="max-w-md text-sm leading-6 text-ink-300">

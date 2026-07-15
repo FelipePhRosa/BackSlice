@@ -14,7 +14,7 @@ export function Hero() {
     <section className="overflow-hidden py-16 md:py-24">
       <div className="container grid items-center gap-12 lg:grid-cols-[1fr_0.9fr]">
         <div>
-          <Badge tone="red">Tecnologia em Pelotas, RS</Badge>
+          <Badge tone="red">Técnologia em Pelotas, RS</Badge>
           <h1 className="mt-6 max-w-4xl text-5xl font-black leading-[1.02] text-ink-100 md:text-7xl">
             Soluções digitais confiáveis para empresas que precisam operar melhor.
           </h1>

@@ -5,6 +5,7 @@ import { BacksliceMark } from "../assets/BacksliceMark";
 import { LinkButton } from "../components/Button";
 import { navigationItems } from "../constants/navigation";
 import { createWhatsAppUrl } from "../services/whatsapp";
+import logo from "../assets/logo.png";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -13,7 +14,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-white/10 bg-ink-950/88 backdrop-blur">
       <div className="container flex h-16 items-center justify-between gap-4">
         <Link className="flex items-center gap-3 font-black" to="/" aria-label="BackSlice - página inicial">
-          <BacksliceMark />
+          <img src={logo} alt="BackSlice" className="h-12 w-12" />
           <span>BackSlice</span>
         </Link>
 

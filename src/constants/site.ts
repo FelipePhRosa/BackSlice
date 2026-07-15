@@ -6,15 +6,15 @@ export const siteConfig = {
   city: "Pelotas",
   region: "RS",
   country: "BR",
-  whatsappNumber: "5553999999999",
-  email: "contato@backslice.com.br",
+  whatsappNumber: "5553981483621",
+  email: "ofcfeliperosa@gmail.com",
   description:
     "Tecnologia confiável para sites profissionais, sistemas personalizados e automações empresariais em Pelotas, RS.",
 };
 
 export const pageMeta: Record<string, PageMeta> = {
   home: {
-    title: "BackSlice | Tecnologia confiável em Pelotas RS",
+    title: "BackSlice | Técnologia confiável em Pelotas RS",
     description:
       "Desenvolvimento de sites profissionais, sistemas personalizados e automações empresariais para empresas em Pelotas e no Rio Grande do Sul.",
     path: "/",
