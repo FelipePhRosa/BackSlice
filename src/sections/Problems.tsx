@@ -17,8 +17,8 @@ export function Problems() {
   ];
 
   return (
-    <section className="section-spacing border-t border-white/10">
-      <div className="container">
+    <section className="border-t border-white/10">
+      <div className="container grid gap-4 pt-10">
         <SectionHeader
           eyebrow="Problemas comuns"
           title="Tecnologia mal resolvida aparece no atendimento, na operação e na confiança."

@@ -13,13 +13,13 @@ export function Solution() {
 
   return (
     <section className="section-spacing">
-      <div className="container grid gap-8 lg:grid-cols-[0.9fr_1fr]">
+      <div className="container grid gap-8 lg:grid-cols-[1.9fr_1fr] lg:items-center lg:justify-between">
         <SectionHeader
           eyebrow="Como resolvemos"
           title="A solução começa no problema real, não na tecnologia da moda."
           description="A BackSlice traduz necessidades do negócio em soluções digitais mantíveis, com comunicação objetiva do início ao suporte."
         />
-        <Reveal className="rounded-lg border border-white/10 bg-ink-900 p-6">
+        <Reveal className="rounded-lg border border-white/10 bg-ink-900 p-6 lg:p-10 lg:w-">
           <div className="grid gap-5">
             {items.map((item) => (
               <div key={item} className="flex gap-4">
