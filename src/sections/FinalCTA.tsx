@@ -28,9 +28,10 @@ export function FinalCTA() {
           >
             Chamar no WhatsApp
           </LinkButton>
-          <LinkButton to="/orcamento" variant="secondary">
-            Solicitar orçamento
-          </LinkButton>
+    
+          <div className="flex items-center justify-center rounded-md border border-red-500/30 bg-red-600/10 px-4 py-2 text-sm font-semibold text-ink-100 hover:duration-600 hover:bg-red-600/20 cursor-pointer">
+            <span className="font-bold text">Solicitar orçamento</span>
+          </div>
         </div>
       </div>
     </section>
