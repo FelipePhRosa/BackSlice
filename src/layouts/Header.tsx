@@ -14,8 +14,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-ink-950/88 backdrop-blur">
       <div className="container flex h-16 items-center justify-between gap-4">
-        <Link className="flex items-center gap-3 font-black" to="/" aria-label="BackSlice - página inicial">
-          <img src={logocomplete} alt="BackSlice" className="h-10 w-full object-cover" />
+        <Link
+          to="/"
+          className="flex items-center"
+          aria-label="BackSlice - página inicial"
+        >
+
+          <img src={logo} alt="BackSlice" className="h-10 w-auto md:hidden"/>
+
+          <img src={logocomplete} alt="BackSlice" className="hidden h-10 w-auto md:block"/>
         </Link>
 
         <nav className="hidden items-center gap-6 text-sm font-semibold text-ink-300 md:flex" aria-label="Navegação principal">
